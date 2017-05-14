@@ -1,0 +1,41 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.electric > h1 {
+  color: gold;
+}
+.water > h1 {
+  color: blue;
+}
+.fire > h1 {
+  color: red;
+}
+.normal > h1 {
+  color: black;
+}
+.grass > h1 {
+  color: green;
+}
